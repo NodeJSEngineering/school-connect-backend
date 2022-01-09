@@ -4,7 +4,7 @@ const Schema = mongoose.Schema;
 
 // Define collection and schema for Business
 let User = new Schema({
-  user_name: {
+  username: {
     type: String, unique: true, required: true
   },
   user_email: {
@@ -20,7 +20,7 @@ let User = new Schema({
     type: String,
     required: true
     },
-    hash: { type: String, required: true },
+    hash: { type: String },
     firstName: { type: String, required: true },
     lastName: { type: String, required: true },
     createdDate: { type: Date, default: Date.now },

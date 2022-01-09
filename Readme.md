@@ -1,5 +1,10 @@
 
 
+
+
+
+
+
 http://localhost:3000/users/register POST
  
 {
